@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <h2>Calendar</h2>
+      <div id="year"></div>
+      <div id="month"></div>
+      <div id="week"></div>
+      <div id="cal"></div>
+    </div>
+    <div id="contriller">
+      <h3>Today is ...</h3>
+      <div id="this-day"></div>
+      <div id="date"></div>
+      <div class="btn">
+        <div onclick="handleWeek(-1)"><img src="./img/previous.png" /></div>
+        <div onclick="handleWeek(1)"><img src="./img/next.png" /></div>
+      </div>
+    </div>
+
+    <div id="back">
+      <div class="imgwrap">
+        <div class="imgview opaque" id="1"></div>
+        <div class="imgview" id="2"></div>
+        <div class="imgview" id="3"></div>
+        <div class="imgview" id="4"></div>
+        <div class="imgview" id="5"></div>
+        <div class="imgview" id="6"></div>
+        <div class="imgview" id="7"></div>
+        <div class="imgview" id="8"></div>
+      </div>
+    </div>
+  </body>
+</html>
