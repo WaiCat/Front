@@ -44,7 +44,18 @@
         <div class="imgview" id="13"></div>
       </div>
     </div>
-    <div id="bg"></div>
+    <div id="click_day">
+      <div id="todoList" class="hidden">
+        <h3>ToDoList</h3>
+        <div class="plus-button" onclick="inputVisibility()">+</div>
+        <div id="click_day_day"></div>
+      </div>
+      <div id="inputBox" class="hidden" onclick="addTodo()">
+        <div class="exit-button" onclick="inputUnVisibility()">x</div>
+        <div id="box">ToDo : <input id="inputTodo" type="text" /></div>
+      </div>
+    </div>
     <script src="main.js"></script>
+    <script src="todolist.js"></script>
   </body>
 </html>
